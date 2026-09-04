@@ -1,0 +1,2 @@
+add_executable(wf_example_basic basic_usage.cpp)
+target_link_libraries(wf_example_basic PRIVATE WorkloadFabric::WorkloadFabric)
